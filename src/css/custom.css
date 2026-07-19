@@ -1,0 +1,21 @@
+:root {
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.6;
+}
+
+code, pre {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
+/* 讓部落格文章與系統內所有作者頭貼變成完美的圓形，並加上輕微的科技感外框 */
+.avatar__photo, [class*='avatar'] img {
+  border-radius: 50% !important;
+  border: 2px solid #30363d;
+  object-fit: cover;
+}
