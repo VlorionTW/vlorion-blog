@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Vlorion Dev',
+  title: 'Vlorion開發者社群',
   tagline: '個人技術筆記與架構實踐',
   favicon: 'img/favicon.ico',
 
@@ -69,7 +69,7 @@ const config: Config = {
             },
           ],
         },
-        {to: '/blog', label: '開發日誌', position: 'left'},
+        {to: '/blog', label: '部落格', position: 'left'},
       ],
     },
     footer: {
@@ -87,7 +87,7 @@ const config: Config = {
               to: '/docs/api',
             },
             {
-              label: '開發日誌',
+              label: '部落格',
               to: '/blog',
             },
           ],
